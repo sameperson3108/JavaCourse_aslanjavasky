@@ -13,5 +13,15 @@ public class Variables {
 
         boolean booleanVariable = false;
         System.out.println("The boolean variable: " + booleanVariable);
+
+        // casting - приведение типов
+        //byteNumber = 127
+
+        short varForCasting = byteNumber;
+        System.out.println("After casting varForCasting: " + varForCasting);
+
+        int intNumber = 5_000_000;
+        short shortForCasting = (short) intNumber;
+        System.out.println("After casting shortForCasting: " + shortForCasting);
     }
 }
