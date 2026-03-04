@@ -13,7 +13,5 @@ public class Variables {
 
         boolean booleanVariable = false;
         System.out.println("The boolean variable: " + booleanVariable);
-
-        var variableNum = 10
     }
 }
