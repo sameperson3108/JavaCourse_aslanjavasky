@@ -13,5 +13,7 @@ public class ScannerDemo {
 
         System.out.println("Hello, my name is: " + name + " my age is: " + age);
 
+        scanner.close();
+
     }
 }

@@ -27,7 +27,7 @@ public class StringDemo {
         System.out.println(substring);
 
         //проверка наличия подстроки
-        System.out.println("contains \"world\": " +greeting.contains("world"));
+        System.out.println("contains \"world\": " + greeting.contains("world"));
 
         //все в еерхний или нижний регистр
         System.out.println(greeting.toUpperCase());
