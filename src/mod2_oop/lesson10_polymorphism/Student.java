@@ -1,4 +1,6 @@
-package mod2_oop.lesson9_inheritance;
+package mod2_oop.lesson10_polymorphism;
+
+import mod2_oop.lesson10_polymorphism.Person;
 
 public class Student extends Person {
     private int course;
